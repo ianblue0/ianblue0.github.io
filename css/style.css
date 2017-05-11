@@ -3,9 +3,9 @@ h1{ color: blue;font-size: 40px:}
 
 .product{
     width: 33.33%;
-    padding:10px;
+    padding:5px;
     float:left;
-    
     }
 
-.thumbnail img{width:100%}
+.thumbnail img{
+    width:100%}
