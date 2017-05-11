@@ -4,7 +4,7 @@ h1{ color: blue;font-size: 40px:}
 .prouct{
     width: 33.33%;
     padding: 10px;
-    float: left;
+    float:left;
     }
 
 .thumbnail img{widows: 100%}
