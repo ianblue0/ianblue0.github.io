@@ -1,6 +1,43 @@
 * {font-family: 'Noto sans TC'}
 h1{ color: blue;font-size: 40px:}
 
+
+
+
+
+
+.container{
+    width: 100%;
+    margin: 0 auto;
+   
+    }
+
+    header {
+    
+    padding-left: 20px;
+    color:blueviolet;
+    height: 500px;
+ background-image: url(https://ianblue0.github.io/images/13.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 .product{
     width: 31%;
     padding:10px;
