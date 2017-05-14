@@ -10,6 +10,16 @@ h1{ color: blue;font-size: 40px:}
 .thumbnail img{
     width:100%}
 
-.product.description p{
+.product1{
+    width: 31%;
+    padding:10px;
+    float: left;
+    }
+
+.thumbnail1 img{
+    width:100%}S
+
+
+.product.description p {
     color: purple ;
 }
