@@ -1,92 +1,98 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>旅遊</title>
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="../css/style.css">
+    <link rel="stylesheet" href="https://necolas.github.io/normalize.css/7.0.0/normalize.css">
+    <link rel="stylesheet" href="/bower_components/bootstrap/dist/css/bootstrap.min.css">
+    <script src="/bower_components/jquery/dist/jquery.min.js"></script>
+    <script src="/bower_components/bootstrap/dist/js/bootstrap.min.js"></script>
 </head>
 
 
 <body>
-<h1>趙峰毅的旅遊日記</h1>
-<header>
-<!--這邊開始是導覽bar-->
-        <nav class=" bar ">
-            <div>
-                <ul>
-                    <li><a href="../index.html" class="link" id="home">Home</a></li>
-                    <li><a href="../pages/page1.html" class="link" id="link1">個人簡介</a></li>
-                    <li><a href="../pages/page2.html" class="link" id="link2">食記</a></li>
-                    <li><a href="../pages/page3.html" class="link" id="link3">旅遊</a></li>
-                    <li><a href="../pages/contact.html" class="link" id="link6">與我聯絡</a></li>
-                </ul>
+    <h1>趙峰毅的旅遊日記</h1>
+    <header>
+        <!--這邊開始是導覽bar-->
+        <nav class="navbar navbar-default" role="navigation">
+            <div class="container-fluid">
+                <div class="navbar-header">
+                    <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#example-navbar-collapse">
+            <span class="sr-only">切换导航</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+        </button>
+                    <a class="navbar-brand" href="/index.html">Ian Zhao</a>
+                </div>
+                <div class="collapse navbar-collapse" id="example-navbar-collapse">
+                    <ul class="nav navbar-nav">
+                        <li><a href="/pages/page1.html">個人簡介</a></li>
+                        <li><a href="/pages/page2.html">食記</a></li>
+                        <li class="active"><a href="/pages/page3.html">旅遊</a></li>
+                        <li><a href="/pages/invest.html">投資隨筆</a></li>
+
+
+                    </ul>
+                </div>
             </div>
         </nav>
-</header>
-<div class="container">
-     <div class="jumbotron">
-        <h1>Hello Jumbotron</h1>
-        <p>這是一個Bootstrap大型看板的例子</p>
-        <p>通常會在這裡放上介紹文字與背景使用高解析圖片</p>
-        <p><a class="btn btn-primary btn-lg" role="button">
-         學習更多</a>
-        </p>
-    </div>
- </div>
 
-<section><div id="myCarousel" class="carousel slide">
-    <!-- 轮播（Carousel）指标 -->
-    <ol class="carousel-indicators">
-        <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
-        <li data-target="#myCarousel" data-slide-to="1"></li>
-        <li data-target="#myCarousel" data-slide-to="2"></li>
-    </ol>   
-    <!-- 轮播（Carousel）项目 -->
-    <div class="carousel-inner">
-        <div class="item active">
-            <img src="/images/11.jpg" alt="First slide">
-        </div>
-        <div class="item">
-            <img src="/images/12.jpg" alt="Second slide">
-        </div>
-        <div class="item">
-            <img src="/images/13.jpg" alt="Third slide">
-        </div>
-    </div>
-    <!-- 轮播（Carousel）导航 -->
-    <a class="carousel-control left" href="#myCarousel" 
-        data-slide="prev">&lsaquo;
+    </header>
+    <section>
+        <div id="myCarousel" class="carousel slide">
+            <!-- 轮播（Carousel）指标 -->
+            <ol class="carousel-indicators">
+                <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+                <li data-target="#myCarousel" data-slide-to="1"></li>
+                <li data-target="#myCarousel" data-slide-to="2"></li>
+            </ol>
+            <!-- 轮播（Carousel）项目 -->
+            <div class="carousel-inner">
+                <div class="item active">
+                    <img src="/images/11.jpg" alt="First slide">
+                </div>
+                <div class="item">
+                    <img src="/images/12.jpg" alt="Second slide">
+                </div>
+                <div class="item">
+                    <img src="/images/13.jpg" alt="Third slide">
+                </div>
+            </div>
+            <!-- 轮播（Carousel）导航 -->
+            <a class="carousel-control left" href="#myCarousel" data-slide="prev">&lsaquo;
     </a>
-    <a class="carousel-control right" href="#myCarousel" 
-        data-slide="next">&rsaquo;
+            <a class="carousel-control right" href="#myCarousel" data-slide="next">&rsaquo;
     </a>
-</div></section>
+        </div>
+    </section>
 
 
 
-<div class="product1">
-    <div class="thumbnail1"><img src="../images/11.jpg" alt=""></div>
-    <description>
-        <p>新加坡金沙酒店俯瞰</p>
-        <a href=""></a>
-    </description>
-</div>
-<div class="product1">
-    <div class="thumbnail1"><img src="../images/12.jpg" alt=""></div>
-    <description>
-        <p>Guns N' Roses - Live In Singapore on 25 February 2017 at Changi Exhibition Centre</p>
-        <a href=""></a>
-    </description>
-</div>
-<div class="product1">
-    <div class="thumbnail1"><img src="../images/14.jpg" alt=""></div>
-    <description>
-        <p>大阪黑門市場</p>
-        <a href=""></a>
-    </description>
+    <div class="product1">
+        <div class="thumbnail1"><img src="../images/11.jpg" alt=""></div>
+        <description>
+            <p>新加坡金沙酒店俯瞰</p>
+            <a href=""></a>
+        </description>
+    </div>
+    <div class="product1">
+        <div class="thumbnail1"><img src="../images/12.jpg" alt=""></div>
+        <description>
+            <p>Guns N' Roses - Live In Singapore on 25 February 2017 at Changi Exhibition Centre</p>
+            <a href=""></a>
+        </description>
+    </div>
+    <div class="product1">
+        <div class="thumbnail1"><img src="../images/14.jpg" alt=""></div>
+        <description>
+            <p>大阪黑門市場</p>
+            <a href=""></a>
+        </description>
 </body>
+
 </html>

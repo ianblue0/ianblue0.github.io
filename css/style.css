@@ -1,86 +1,112 @@
-
-* {
-    -webkit-box-sizing: border-box;
-    -moz-box-sizing: border-box;
-    box-sizing: border-box;
-    font-family: 'Noto sans TC','PingFangTC', 'Microsoft JhengHei', 'Arial', sans-serif;
-}
-
-
-
-
-
-.container{
-    width: 100%;
-    margin: 0 auto;
-   
-    }
-.bar {
-    width: 100%;
-    height: 105px;
-    background-color: #262322;
-    position: static;
-}
-/*大頭貼開始*/
-.circle {
-    display: inline-block;
-    width: 100px;
-    height:100px;
-    border-radius: 50%;
-   
-    padding: 2px;
-    background:#fff;
-}
-.inner {
-    background-image: url(https://ianblue0.github.io/images/20.jpg);
-    background-size:cover;
-    background-position:center center;
-    height: 100%;
-    border-radius:50%;
-}
-/*大頭貼結束*/
-.link {
-    width: 100%;
-    height: 600px;
-    background-image: url(../image/Cover_S.jpg);
-    background-size: cover;
-    background-position: right bottom;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-}
-
-
-
-
-
-
-
-
-
-
-
-
-
-.product{
-    width: 31%;
-    padding:10px;
-    float: left;
-    }
-
-.thumbnail img{
-    width:100%}
-
-.product1{
-    width: 31%;
-    padding:10px;
-    float: left;
-    }
-
-.thumbnail1 img{
-    width:100%}S
-
-
-.product.description p {
-    color: purple ;
-}
+                                        .social_bookmarks li {
+                                        clear: none !important;
+                                        border: 0 !important;
+                                    }
+                                    
+                                    * {
+                                        -webkit-box-sizing: border-box;
+                                        -moz-box-sizing: border-box;
+                                        box-sizing: border-box;
+                                        font-family: 'Noto sans TC', 'PingFangTC', 'Microsoft JhengHei', 'Arial', sans-serif;
+                                    }
+                                    
+                                    .container {
+                                        width: 100%;
+                                        margin: 0 auto;
+                                    }
+                                    
+                                    .bar {
+                                        width: 100%;
+                                        height: 105px;
+                                        background-color: #262322;
+                                        position: static;
+                                    }
+                                    /*大頭貼開始*/
+                                    
+                                    .circle {
+                                        display: inline-block;
+                                        width: 100px;
+                                        height: 100px;
+                                        border-radius: 50%;
+                                        padding: 2px;
+                                        background: #fff;
+                                    }
+                                    
+                                    .inner {
+                                        background-image: url(https://ianblue0.github.io/images/20.jpg);
+                                        background-size: cover;
+                                        background-position: center center;
+                                        height: 100%;
+                                        border-radius: 50%;
+                                    }
+                                    /*大頭貼結束*
+                                    
+                                    .link {
+                                        width: 100%;
+                                        @font-face {
+                                            font-family: 'si';
+                                            src: url('ICON/_MACOSX/socicon.eot');
+                                            src: url('ICON/_MACOSX/socicon.eot?#iefix') format('embedded-opentype'), url('ICON/_MACOSX/socicon.woff') format('woff'), url('ICON/_MACOSX/socicon.ttf') format('truetype'), url('ICON/_MACOSX/socicon.svg#icomoonregular') format('svg');
+                                            font-weight: normal;
+                                            font-style: normal;
+                                        }
+                                        @media screen and (-webkit-min-device-pixel-ratio:0) {
+                                            @font-face {
+                                                font-family: si;
+                                                src: url(ICON/_MACOSX/socicon.svg) format(svg);
+                                            }
+                                        }
+                                        .soc {
+                                            overflow: hidden;
+                                            margin: 0;
+                                            padding: 0;
+                                            list-style: none;
+                                        }
+                                        .soc li {
+                                            display: inline-block;
+                                            *display: inline;
+                                            zoom: 1;
+                                        }
+                                        .soc li a {
+                                            font-family: si!important;
+                                            font-style: normal;
+                                            font-weight: 400;
+                                            -webkit-font-smoothing: antialiased;
+                                            -moz-osx-font-smoothing: grayscale;
+                                            -webkit-box-sizing: border-box;
+                                            -moz-box-sizing: border-box;
+                                            -ms-box-sizing: border-box;
+                                            -o-box-sizing: border-box;
+                                            box-sizing: border-box;
+                                            overflow: hidden;
+                                            text-decoration: none;
+                                            text-align: center;
+                                            display: block;
+                                            position: relative;
+                                            z-index: 1;
+                                            width: 48px;
+                                            height: 48px;
+                                            line-height: 48px;
+                                            font-size: 26px;
+                                            -webkit-border-radius: 37px;
+                                            -moz-border-radius: 37px;
+                                            border-radius: 37px;
+                                            margin-right: 16px;
+                                            color: #ffffff;
+                                            background-color: none;
+                                        }
+                                        .soc-icon-last {
+                                            margin: 0 !important;
+                                        }
+                                        .soc-facebook {
+                                            background-color: #3e5b98;
+                                        }
+                                        .soc-facebook:before {
+                                            content: '\e041';
+                                        }
+                                        .soc-rss {
+                                            background-color: #f26109;
+                                        }
+                                        .soc-rss:before {
+                                            content: '\e00b';
+                                        }
